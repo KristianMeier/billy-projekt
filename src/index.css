@@ -7,7 +7,103 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.links-column-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text {
+  color: white;
+  font-size: 1rem;
+}
+
+.buttom-footer {
+  font-size: 0.6rem;
+}
+
+.footer-bottom-section {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.footer-bottom-links {
+  display: flex;
+}
+
+.footer-links-column {
+  display: flex;
+  width: 185px;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.footer-social-icon {
+  height: 28px;
+  width: 28px;
+  margin-right: 0.8rem;
+}
+
+.footer-so-me-links {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.footer-so-me-links a {
+  list-style: none;
+}
+
+.billy-logo {
+  width: 115px;
+  height: 38px;
+  margin: 1rem 0;
+}
+
+.column-header {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  background-color: #1d1d1b;
+  color: white;
+}
+
+.footer-content {
+  max-width: 1080px;
+  padding: 130px 0 90px;
+  margin: 0 auto;
+}
+
+.footer-contact-columns-container {
+  display: flex;
+}
+
+.footer-logo-contact-column {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.links-columns-container {
+  display: flex;
+}
+
+.footer-small-bottum a {
+  font-size: 0.7rem;
+  color: grey;
+  font-weight: 600;
+  margin-right: 0.7rem;
 }
