@@ -1,3 +1,7 @@
+:root {
+  --blue: #2766f1;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -107,4 +111,207 @@ code {
   color: grey;
   font-weight: 600;
   margin-right: 1rem;
+}
+
+.ds-button {
+  display: inline-block;
+  width: fit-content;
+  padding: 19px 32px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+  color: white;
+  border-radius: 7px;
+  border: 1.5px solid white;
+  background: var(--blue);
+  margin-left: 2rem;
+}
+
+.ds-button:hover {
+  border: 1.5px solid var(--blue);
+  background: white;
+  color: var(--blue);
+}
+
+.billy-logo-image {
+  height: 38px;
+  width: 115px;
+}
+
+.billy-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-single-link {
+  margin-left: 30px;
+}
+
+.icon-text-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-container {
+  display: flex;
+  height: 77px;
+  width: 100%;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  z-index: 10;
+  background-color: white;
+}
+
+.navbar-centering-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: relative;
+  background-color: var(--blue);
+}
+
+.navbar-content {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-outer-part {
+  width: 220px;
+}
+
+.navbar-central-part {
+  display: flex;
+  width: 1140px;
+  justify-content: space-between;
+}
+
+.navbar-icon-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-signup-login-container {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content {
+  max-width: 1080px;
+}
+
+.dashboard-pic {
+  width: 300px;
+  height: 300px;
+}
+
+.style-iframe {
+  position: relative;
+  height: 100%;
+  width: 200%;
+  border-style: none;
+  display: block;
+  overflow: hidden;
+}
+.lp-components-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0px 22px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 100%;
+    padding: 0px 36px;
+  }
+}
+
+.lp-wave-hero-themed {
+  padding-top: 50px;
+}
+
+.content-image-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.themed-rich-text {
+  margin-bottom: 35px;
+}
+
+.signup-form {
+  height: 56px;
+  width: 200px;
+  z-index: 5;
+  margin: 0px;
+}
+
+.form-inputs {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: '0px';
+}
+
+.signup-input {
+  background-color: white;
+}
+
+.form-hidden-input {
+  display: none;
+}
+
+.form-controls {
+  margin-bottom: 0;
+}
+.terms-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.checkbox-container {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.accept-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  line-height: 22px;
+}
+
+.trustpilot-widget {
+  height: 30px;
+  transform: scale(0.8);
+  margin: 40px 0 0 -172px;
 }

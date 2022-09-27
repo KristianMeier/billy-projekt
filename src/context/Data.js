@@ -172,3 +172,15 @@ export const FooterDataColumns = [
     ],
   },
 ]
+
+export const HeaderData = [
+  { title: 'Funktion', link: '/' },
+  { title: 'Pris', link: '/' },
+  { title: 'Integrationer', link: '/' },
+  { title: 'Support', link: '/' },
+]
+
+export const HeaderDataTwo = [
+  { title: '60 24 60 24', link: '/' },
+  { title: 'Log ind', link: '/' },
+]

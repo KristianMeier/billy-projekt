@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterDataColumns } from '../context/FooterData'
+import { FooterDataColumns } from '../context/Data'
 import { FooterColumn } from './footer-column'
 
 const FooterColums = () => {

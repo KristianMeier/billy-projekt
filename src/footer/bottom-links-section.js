@@ -1,5 +1,5 @@
 import FooterLink from '../components/FooterLink'
-import { FooterData } from '../context/FooterData'
+import { FooterData } from '../context/Data'
 
 const {
   buttomlinks: { left, right },
