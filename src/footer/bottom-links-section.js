@@ -2,7 +2,7 @@ import FooterLink from '../components/FooterLink'
 import { FooterData } from '../context/FooterData'
 
 const {
-  buttomlinks: { left: left, right: right },
+  buttomlinks: { left, right },
 } = FooterData
 
 export const BottomLinksSection = () => (

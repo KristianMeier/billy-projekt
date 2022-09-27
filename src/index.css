@@ -73,6 +73,7 @@ code {
 
 .column-header {
   margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 .footer {
@@ -105,5 +106,5 @@ code {
   font-size: 0.7rem;
   color: grey;
   font-weight: 600;
-  margin-right: 0.7rem;
+  margin-right: 1rem;
 }

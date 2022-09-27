@@ -1,11 +1,7 @@
 import { Footer } from './footer/footer'
 
 function App() {
-  return (
-    <div>
-      <Footer />
-    </div>
-  )
+  return <Footer />
 }
 
 export default App

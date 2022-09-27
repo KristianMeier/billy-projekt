@@ -1,27 +1,18 @@
-export const LogoContactColumn = () => (
-  <>
-    <a href='/'>
-      <img
-        className='billy-logo'
-        src='/assets/billy-white-logo-new-id.svg'
-        alt='billylogo'
-      />
-    </a>
+import ImageLink from '../components/styles/ImageLink'
+import { FooterData } from '../context/FooterData'
+import { FooterColumn } from './footer-column'
 
-    <p className='footer-text '>
-      <a href='/'>Team</a>
-    </p>
+const { billylogo, contactlinks, linkedin, facebook } = FooterData
 
-    <p className='footer-text '>
-      <a href='/'>Team</a>
-    </p>
-
-    <p className='footer-text '>
-      <a href='/'>Team</a>
-    </p>
-
-    <p className='footer-text '>
-      <a href='/'>Team</a>
-    </p>
-  </>
-)
+export const LogoContactColumn = () => {
+  return (
+    <>
+      <ImageLink imagelinkdata={billylogo} />
+      <FooterColumn links={contactlinks} />
+      <div className='footer-so-me-links'>
+        <ImageLink imagelinkdata={linkedin} />
+        <ImageLink imagelinkdata={facebook} />
+      </div>
+    </>
+  )
+}

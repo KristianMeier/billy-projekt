@@ -4,10 +4,10 @@ const FooterLink = ({ data }) => {
   return (
     <>
       {data.map((item) => {
-        const { title, id, classname } = item
+        const { title, id, classname, link } = item
         return (
           <p key={id} className={classname}>
-            <a href='/'>{title}</a>
+            <a href={link}>{title}</a>
           </p>
         )
       })}
