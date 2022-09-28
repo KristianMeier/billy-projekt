@@ -5,7 +5,7 @@ export const NavbarLinks = ({ data }) => {
     <>
       {data.map((item) => {
         const { title, link } = item
-        return <NavbarLink title={title} link={link} />
+        return <NavbarLink key={title} title={title} link={link} />
       })}
     </>
   )

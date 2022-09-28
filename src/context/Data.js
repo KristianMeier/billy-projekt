@@ -174,10 +174,10 @@ export const FooterDataColumns = [
 ]
 
 export const HeaderData = [
-  { title: 'Funktion', link: '/' },
-  { title: 'Pris', link: '/' },
-  { title: 'Integrationer', link: '/' },
-  { title: 'Support', link: '/' },
+  { title: 'Funktioner', link: '/Funktioner' },
+  { title: 'Pris', link: '/Pris' },
+  { title: 'Integrationer', link: '/Integrationer' },
+  { title: 'Support', link: '/Support' },
 ]
 
 export const HeaderDataTwo = [

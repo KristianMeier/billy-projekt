@@ -1,5 +1,5 @@
-import ImageLink from '../components/styles/ImageLink'
-import { FooterData } from '../context/Data'
+import ImageLink from '../styles/ImageLink'
+import { FooterData } from '../../context/Data'
 import { FooterColumn } from './footer-column'
 
 const { billylogo, contactlinks, linkedin, facebook } = FooterData

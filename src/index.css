@@ -315,3 +315,35 @@ code {
   transform: scale(0.8);
   margin: 40px 0 0 -172px;
 }
+
+.placeholder-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.placeholder-container {
+  display: flex;
+  justify-content: center;
+  align-items: space;
+  max-width: 1500px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: space;
+  border: 3px solid black;
+  flex: 0 0 40%;
+  margin: 5rem;
+}
+
+.placeholder-title {
+  font-size: 3rem;
+  border: 3px solid black;
+  padding: 3rem;
+}
+
+.placeholder-header {
+  font-size: 6rem;
+  align-content: center;
+}

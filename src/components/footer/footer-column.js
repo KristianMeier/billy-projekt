@@ -1,4 +1,4 @@
-import FooterLink from '../components/FooterLink'
+import FooterLink from '../FooterLink'
 
 export const FooterColumn = ({ links, title }) => {
   return (
